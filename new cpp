@@ -1,0 +1,13 @@
+#include<iosteream>
+using namesapce std;
+int main(){
+int n;
+cin>>n;
+if(n%6==1 || n%6==5)
+{
+if( n%5== 0) cout<< " not a prime";
+else{ cout<<"prime"; 
+}
+else cout<< "not a prime";
+return 0;
+}
