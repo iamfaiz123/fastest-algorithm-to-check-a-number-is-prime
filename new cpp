@@ -1,13 +1,14 @@
+/// the fact the every prime number will always be in form of (6n+-1)  = prime and prime%5 == 0,prime
 #include<iosteream>
 using namesapce std;
 int main(){
-int n;
-cin>>n;
-if(n%6==1 || n%6==5)
-{
-if( n%5== 0) cout<< " not a prime";
-else{ cout<<"prime"; 
-}
-else cout<< "not a prime";
-return 0;
+  int n;
+  cin>>n;
+  if(n%6==1 || n%6==5)
+    {
+       if( n%5== 0) cout<< " not a prime";
+        else{ cout<<"prime"; 
+    }
+  else cout<< "not a prime";
+  return 0;
 }
